@@ -1,0 +1,11 @@
+#Character frequency
+
+text='Python is a programming language'
+frequency={}
+
+for ch in text:
+    if ch in frequency:
+        frequency[ch]+=1
+    else:
+        frequency[ch]=1
+print(frequency)
